@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-basico-express-movies",
+  "version": "1.0.0",
+  "description": "CRUD de películas con Express y MongoDB (Mongoose)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seeds/movies.seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}
